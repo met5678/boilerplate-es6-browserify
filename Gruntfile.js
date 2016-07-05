@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             tasks: ["build"]
          },
          scripts: {
-            files: ["./src/js/**", "./Gruntfile.js"],
+            files: ["./src/js/**"],
             tasks: ["compile"]
          },
          static: {
