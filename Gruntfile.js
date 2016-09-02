@@ -12,7 +12,7 @@ module.exports = function (grunt) {
                }
             },
             files: {
-               "./dist/js/bundle.js": ["./src/app.js"]
+               "./dist/js/bundle.js": ["./src/js/main.js"]
             }
          }
       },
